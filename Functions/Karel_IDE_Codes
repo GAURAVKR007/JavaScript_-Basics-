@@ -1,0 +1,61 @@
+ // To Print the Diagonal
+
+ function main(){
+   diagonals();
+   diagonals();
+   diagonals();
+   diagonals();
+   putBeeper();
+}
+
+function diagonals() {
+   putBeeper();
+   move();
+   turnLeft();
+   move();
+   turnRight();
+}
+
+// To print the Pattern
+
+*    *    *
+  *    *
+*    *    *
+  *    *
+*    *    *
+
+
+code :
+
+function main(){
+   first_row();
+   second_row();
+   first_row();
+   second_row();
+    first_row();
+}
+
+function first_row() {
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+}
+
+function second_row() {
+   turnLeft();
+   move();
+   turnLeft();
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   move();
+   turnRight();
+   move();
+   turnRight();
+}
