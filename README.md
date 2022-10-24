@@ -8,4 +8,5 @@ All Data Types of JavaScript
 
 
 The Rest Operator in Function Parameters
+
 ![image](https://user-images.githubusercontent.com/84225690/197603121-c1757c62-9926-4d0a-9bd9-d03faaca1e65.png)
